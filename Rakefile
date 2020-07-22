@@ -8,5 +8,6 @@ task :console do
 end
 
 task :migrations do
+  system "rake db:migrate &&"
 end
 # Type `rake -T` on your command line to see the available rake tasks.
