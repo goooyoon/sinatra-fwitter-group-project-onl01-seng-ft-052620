@@ -112,3 +112,5 @@ get "/signup" do
       User.find(session[:user_id])
     end
 end
+end
+end
