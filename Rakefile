@@ -8,6 +8,6 @@ task :console do
 end
 
 task :migrations do
-  system "rake db:migrate && rake db:migrate SINATRA_ENV=test"
+  system "rake db:migrate && rake db:migrate RACK_ENV=test"
 end
 # Type `rake -T` on your command line to see the available rake tasks.
